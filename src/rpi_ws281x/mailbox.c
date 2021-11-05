@@ -264,7 +264,8 @@ int mbox_open(void) {
     int file_desc;
     char filename[64];
 
-    file_desc = open("/dev/vcio", 0);
+    file_desc = open("/dev/video0", 0);
+    // file_desc = open("/dev/vcio", 0);
     if (file_desc >= 0) {
         return file_desc;
     }
