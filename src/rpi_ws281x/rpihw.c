@@ -464,8 +464,8 @@ static const rpi_hw_t rpi_hw_info[] = {
     //
     {
         .hwver  = 0x0,
-        .type = RPI_HWVER_TYPE_PI2,
-        .periph_base = PERIPH_BASE_RPI2,
+        .type = RPI_HWVER_TYPE_PI1,
+        .periph_base = PERIPH_BASE_RPI,
         .videocore_base = VIDEOCORE_BASE_RPI,
         .desc = "Organge PI Zero",
     },
